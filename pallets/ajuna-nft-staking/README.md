@@ -45,12 +45,12 @@ The non-fungible asset provider should be compatible with the [`frame_support::t
 
 #### Contract duration
 
-Once a contract has been taken by a given account, the contract enters it's 'Active' state, during that time no interactions can happen with it, after the amount of blocks specified in the contract 
+Once a contract has been taken by a given account, the contract enters its 'Active' state, during that time no interactions can happen with it, after the amount of blocks specified in the contract 
 has passed the contract **can then only be redeemed by the same account that took it**.
 
 #### Contract reward
 
-Contracts can have one of this two types of rewards:
+Contracts can have one of these two types of rewards:
 
 * `Token`: The contract taker will be awarded the defined amount of tokens in their contract upon completion, this amount will come from the original deposit the contract creator was forced to make.
 * `NFT`: The contract taker will be awarded a given non-fungible asset, this asset would have been previously owned by the contract creator.
